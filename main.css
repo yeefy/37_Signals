@@ -52,6 +52,10 @@ table {
 
 /*below are my own changes*/
 
+a{
+	text-decoration:none;
+}
+
 div{
 	text-align:center;
 }
@@ -103,12 +107,13 @@ li{
 	clear:both;
 	margin-top:50px;
 }
-
-#headingtxt{
+				
+.headingtxt{
 	font-family:Georgia, "Times New Roman", Times, serif;
 	color:#232323;
 	font-style:normal;
 	font-weight:500;
+	text-align:center;
 }
 
 #headingbig{
@@ -138,6 +143,7 @@ li{
 	background: linear-gradient(#FFF, #ECECEC);
 }
 
+
 .bhc{
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	padding:7px;
@@ -166,9 +172,41 @@ sup{
 }
 
 .bhc_text{
+	color:#232323;
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-size:14px;
 	padding:7px;
 }
 
+span{
+	text-decoration:underline;
+	color:#369;
+}
 
+/*jQuery effects*/
+
+.headingtxt_base, .headingtxt_high, .headingtxt_camp{
+	display:none;
+}
+
+div.headingtxt_base h1, div.headingtxt_high h1, div.headingtxt_camp h1{
+	font-size:58px;
+	text-align:center;
+	margin:20px 60px;
+}
+
+div.headingtxt_base p, div.headingtxt_high p, div.headingtxt_camp p{
+	font-size:20px;
+	padding:10px;
+}
+
+#arrow_left{
+	display:none;
+}
+
+.arrow_left_on{
+	display:block;
+	position:absolute;
+	left:150px;
+	top:2px;
+}
