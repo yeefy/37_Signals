@@ -1,10 +1,12 @@
 <!DOCTYPE html>
+<html>
+
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>37 Signals</title>
+	<meta charset="utf-8"/>
+	<title>37signals: Web-based collaboration apps for small businesses</title>
 	<link href="main.css" rel="stylesheet" type="text/css"/>
     <script type="text/javascript" src="application.js"></script>
-   	<script src="jQuery_1.10.2.js"></script>
+   	<script type="text/javascript" src="jquery-1.10.2.js"></script>
 </head>
 
 <body>
@@ -24,34 +26,54 @@
         <div id="logo">
         	<img src="images/logo-37s-large.png" alt="logo"/>
         </div>
-        <div id="headingtxt">
+        <div class="headingtxt">
         	<h1 id="headingbig">Making collaboration productive and enjoyable for people every day</h1>
             <h5 id="headingsmall">Frustration-free web-based apps for collaboration, sharing information, and making decisions.</h5>
         </div>
+        <div class="headingtxt_base">
+        	<h1 id="headingbig"><span>Basecamp</span> is the project management tool you wish you had on your last project.</h1> 
+        	<p>Are you still managing projects with email? Are you still using Excel for your to-do lists? It’s time to upgrade to Basecamp. Manage projects and collaborate with your team and clients the modern way.</p>
+        </div>
+        <div class="headingtxt_high">
+        	<h1 id="headingbig"><span>Highrise</span> remembers the important things about people you'd normally forget.</h1>
+        	<p>Keep a permanent record of people you do business with. Know who you talked to, when you talked to them, what was said, and when to follow up next. Over 20,000,000 contacts are tracked using Highrise.</p>
+        </div>
+        <div class="headingtxt_camp">
+        	<h1 id="headingbig">From near or far, <span>Campfire</span> helps teams work together over the web in real time.</h1>
+        	<p>Share ideas, discussions, concepts, images, code samples, videos, mockups, and documents in a real-time private chat room. It’s game changing. We couldn’t run our own business without Campfire.</p>
+        </div>
         <div>
-        	<div id="base" class="basehighcamp">
+        	
+            <div id="base" class="basehighcamp">
+            	<a href="#">
             	<img src="images/logo-bc.png" alt="base"/>
                 <h2 class="bhc">
                 	<span class="bhc_head">Basecamp</span><sup>®</sup>
                 </h2>
                 <h4 class="bhc_subhead">Manage Projects</h4>
                 <h5 class="bhc_text">Used by millions for project management.</h5>
+                </a>
+                <img id="arrow_left" src="images/arrow-left.png" alt="left-arrow"/>
             </div>
-            <div class="basehighcamp">
+            <div id="high" class="basehighcamp">
+            	<a href="#">
             	<img src="images/logo-hr.png" alt="high"/>
                 <h2 class="bhc">
-                	<span class="bhc_head">Highrise</span><sup>®</sup>
+               	 <span class="bhc_head">Highrise</span><sup>®</sup>
                 </h2>
                 <h4 class="bhc_subhead">Manage Contacts</h4>
                 <h6 class="bhc_text">Know the people you do business with.</h6>
+                </a>
             </div>
-            <div class="basehighcamp">
-            	<img src="images/logo-cf.png" alt="camp"/>
+            <div id="camp" class="basehighcamp">
+            	<a href="#">
+                <img src="images/logo-cf.png" alt="camp"/>
                 <h2 class="bhc">
                 	<span class="bhc_head">Campfire</span><sup>™</sup>
                 </h2>
                 <h4 class="bhc_subhead">Work in Real-Time</h4>
                 <h6 class="bhc_text">Group chatrooms for your business.</h6>
+                </a>
             </div>
         </div>
     </div>
