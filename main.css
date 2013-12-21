@@ -116,13 +116,13 @@ li{
 	text-align:center;
 }
 
-#headingbig{
+.headingbig{
 	font-size:58px;
 	text-align:center;
 	margin:20px 60px;
 }
 
-#headingsmall{
+.headingsmall{
 	font-size:20px;
 	padding:10px;
 }
@@ -200,13 +200,20 @@ div.headingtxt_base p, div.headingtxt_high p, div.headingtxt_camp p{
 	padding:10px;
 }
 
-div.arrow_left{
-	display:none;
+div.arrow_left, div.arrow_mid, div.arrow_right{
+	visibility:hidden;
 }
 
-img.arrow_left_on{
+img.arrow_left_on, img.arrow_mid_on{
 	display:block;
 	position:absolute;
 	left:150px;
+	top:2px;
+}
+
+img.arrow_right_on{
+	display:block;
+	position:absolute;
+	left:-30px;
 	top:2px;
 }
