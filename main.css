@@ -200,13 +200,23 @@ div.headingtxt_base p, div.headingtxt_high p, div.headingtxt_camp p{
 	padding:10px;
 }
 
-#arrow_left{
+.arrow_left{
 	display:none;
 }
 
-.arrow_left_on{
+.arrow_mid{
+	display:none;
+}
+
+.arrow_right{
+	display:none;
+}
+
+.arrow_left_on, .arrow_mid_on, .arrow_right_on{
 	display:block;
 	position:absolute;
 	left:150px;
 	top:2px;
 }
+
+
