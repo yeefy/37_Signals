@@ -1,14 +1,16 @@
-$(document).ready(function(e) {
+$(document).ready(function() {
     $('#base').mouseenter(function() {
         $('.headingtxt').hide();
+		$('.arrow_left').hide();
 		$('.headingtxt_base').show();
-		$('.arrow_left').addClass('arrow_left_on');
+		$('.arrow_left_on').show();
 	});
 	
 	$('#base').mouseleave(function() {
 		$('.headingtxt_base').hide();
+		$('.arrow_left_on').hide();
         $('.headingtxt').show();
-		$('.arrow_left').removeClass('arrow_left_on');
+		$('.arrow_left').show();
     });
 	
 	$('#high').mouseenter(function() {

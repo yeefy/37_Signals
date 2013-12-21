@@ -200,11 +200,11 @@ div.headingtxt_base p, div.headingtxt_high p, div.headingtxt_camp p{
 	padding:10px;
 }
 
-.arrow_left{
+div.arrow_left{
 	display:none;
 }
 
-.arrow_left_on{
+img.arrow_left_on{
 	display:block;
 	position:absolute;
 	left:150px;
