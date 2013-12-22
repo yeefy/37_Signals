@@ -107,7 +107,12 @@ li{
 	clear:both;
 	margin-top:50px;
 }
-				
+
+div.headingtxt, div.headingtxt_base, div.headingtxt_high, div.headingtxt_camp{
+	width:90%;
+	margin-left:5%;
+}
+
 .headingtxt{
 	font-family:Georgia, "Times New Roman", Times, serif;
 	color:#232323;
@@ -192,12 +197,12 @@ span{
 div.headingtxt_base h1, div.headingtxt_high h1, div.headingtxt_camp h1{
 	font-size:58px;
 	text-align:center;
-	margin:20px 60px;
+	margin:20px;
 }
 
 div.headingtxt_base p, div.headingtxt_high p, div.headingtxt_camp p{
 	font-size:20px;
-	padding:10px;
+	width:90%;
 }
 
 div.arrow_left, div.arrow_mid, div.arrow_right{
